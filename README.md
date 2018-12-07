@@ -10,7 +10,7 @@ You can see a prototype of this feature with [Lighthouse Viewer](https://houssei
 
 This is still under early development, but we would like to hear any suggestions from community members in the meantime. [WordPress](https://wordpress.com/) is the first ecosystem we would like to include before rolling this out for other platforms. 
 
-* If you're an active member of the WordPress community, feel free to leave PRs and suggestions for different audit messages in [`wordpress/audits.json`](./wordpress/audits.json).
+* If you're an active member of the WordPress community, feel free to leave PRs and suggestions for different audit messages in [`src/wordpress/audits.json`](./src/wordpress/audits.json).
   * For each audit, the `secondaryDescription` attribute can be used to include (or modify) the WordPress specific messages.
 * If you have any ideas or suggestions on the design in the prototype, please open an issue!
 
