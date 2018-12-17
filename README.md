@@ -5,7 +5,7 @@
 Many developers today use different technologies (backend/CMS/JavaScript frameworks) to build their web pages. Instead of only surfacing general recommendations, what if Lighthouse could also provide more relevant and actionable advice depending on the tools used?
 
 <p align="center">
-  <img alt="Prototype" title="Prototype" src="https://raw.githubusercontent.com/housseindjirdeh/lighthouse-platform-packs/master/assets/platform-pack-example.png?token=AL5iBK--jZtGBSqGuESdAXImr5IM6Ix1ks5cEZ8RwA%3D%3D">
+  <img alt="Prototype" title="Prototype" src="https://raw.githubusercontent.com/GoogleChrome/lighthouse-platform-packs/master/assets/platform-pack-example.png">
 </p>
 
 You can see a prototype of this feature with [Lighthouse Viewer](http://bit.ly/lh-platform-packs).
