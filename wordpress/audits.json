@@ -506,7 +506,7 @@
     "id": "is-crawlable",
     "title": "Page isn’t blocked from indexing",
     "description": "Search engines are unable to include your pages in search results if they don't have permission to crawl them. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/indexing).",
-    "secondaryDescription": "Make sure the Search Engine Visibility setting (under Reading) is not discouraging search engines from indexing this site by unchecking the box. Individual posts may be set to `noindex` by plugins."
+    "secondaryDescription": "Make sure the Search Engine Visibility setting (under Reading) is not discouraging search engines from indexing this site by unchecking the box. Individual posts may be set to `noindex` by plugins. [Learn more](https://codex.wordpress.org/Settings_Reading_Screen)"
 
   },
   {
