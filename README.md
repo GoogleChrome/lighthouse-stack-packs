@@ -1,18 +1,18 @@
-# Lighthouse Platform Packs
+# Lighthouse Stack Packs
 
 [Lighthouse](https://github.com/GoogleChrome/lighthouse) provides developers with guidance to improve their site by auditing for performance, accessibility and other best practices.
 
 Many developers today use different technologies (backend/CMS/JavaScript frameworks) to build their web pages. Instead of only surfacing general recommendations, what if Lighthouse could also provide more relevant and actionable advice depending on the tools used?
 
 <p align="center">
-  <img alt="Prototype" title="Prototype" src="https://raw.githubusercontent.com/GoogleChrome/lighthouse-platform-packs/master/assets/platform-pack-example.png">
+  <img alt="Prototype" title="Prototype" src="https://raw.githubusercontent.com/GoogleChrome/lighthouse-stack-packs/master/assets/platform-pack-example.png">
 </p>
 
 You can see a prototype of this feature with [Lighthouse Viewer](http://bit.ly/lh-platform-packs).
 
 ## Contributing
 
-This is still under early development, but we would like to hear any suggestions from community members in the meantime. [WordPress](https://wordpress.com/) is the first ecosystem we would like to include before rolling this out for other platforms. 
+This is still under early development, but we would like to hear any suggestions from community members in the meantime. [WordPress](https://wordpress.com/) is the first ecosystem we would like to include before rolling this out for other stacks. 
 
 * If you are an active member of the WordPress community, feel free to provide suggestions for different audit messages to this [spreadsheet]( https://docs.google.com/spreadsheets/d/1D4sz4NmhTjekJR2HIFX6QvO76c9PU2LHKDBf19YLnrA/edit?usp=sharing).
 * Alternatively, feel free to open PRs and provide suggestions for different audit messages in [`wordpress/audits.json`](./wordpress/audits.json).
