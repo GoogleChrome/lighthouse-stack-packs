@@ -46,7 +46,7 @@
   },
   {
     "id": "uses-long-cache-ttl",
-    "title": "Uses efficient cache policy on static assets",
+    "title": "Serve static assets with an efficient cache policy",
     "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/cache-policy).",
   },
   {
@@ -93,5 +93,15 @@
     "id": "critical-request-chains",
     "title": "Minimize Critical Requests Depth",
     "description": "The Critical Request Chains below show you what resources are loaded with a high priority. Consider reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains)."
+  },
+  {
+    "id": "dom-size",
+    "title": "Avoids an excessive DOM size",
+    "description": "Browser engineers recommend pages contain fewer than ~1,500 DOM nodes. The sweet spot is a tree depth < 32 elements and fewer than 60 children/parent element. A large DOM can increase memory usage, cause longer [style calculations](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations), and produce costly [layout reflows](https://developers.google.com/speed/docs/insights/browser-reflow). [Learn more](https://developers.google.com/web/tools/lighthouse/audits/dom-size)."
+  },
+  {
+    "id": "font-display",
+    "title": "All text remains visible during webfont loads",
+    "description": "Leverage the font-display CSS feature to ensure text is user-visible while webfonts are loading. [Learn more](https://developers.google.com/web/updates/2016/02/font-display)."
   }
 ]
