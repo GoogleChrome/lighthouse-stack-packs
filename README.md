@@ -8,16 +8,18 @@ Many developers today use different technologies (backend/CMS/JavaScript framewo
   <img alt="Prototype" title="Prototype" src="https://raw.githubusercontent.com/GoogleChrome/lighthouse-stack-packs/master/assets/platform-pack-example.png">
 </p>
 
-You can see a prototype of this feature with [Lighthouse Viewer](http://bit.ly/lh-platform-packs).
+## Prototypes
+
+* [WordPress](https://houssein.me/lighthouse/viewer-wordpress/?gist=9efc3fc22dc500620c884db995e3fb6c)
+* [React](https://react-pack-demo-25wm86cuv.now.sh/)
 
 ## Contributing
 
-This is still under early development, but we would like to hear any suggestions from community members in the meantime. [WordPress](https://wordpress.org/) is the first ecosystem we would like to include before rolling this out for other stacks. 
+This is still under early development, but we would like to hear any suggestions from community members in the meantime. **[WordPress](https://wordpress.org/) is the first ecosystem we are prioritizing for** but we'll always be open to suggestions for other stacks that we can support directly after.
 
-* If you are an active member of the WordPress community, feel free to provide suggestions for different audit messages to this [spreadsheet]( https://docs.google.com/spreadsheets/d/1D4sz4NmhTjekJR2HIFX6QvO76c9PU2LHKDBf19YLnrA/edit?usp=sharing).
-* Alternatively, feel free to open PRs and provide suggestions for different audit messages in [`wordpress/audits.json`](./wordpress/audits.json).
+* Feel free to open PRs and provide suggestions for different audit messages in [`wordpress/audits.json`](./wordpress/audits.json).
   * For each audit, the `secondaryDescription` attribute can be used to include (or modify) the WordPress specific messages.
-* If you have any feedback on the design or anything else, please open an issue!
+* If you have any feedback or suggestions for any other stacks besides WordPress, please open an issue!
 
 Before contributing in any way, make sure to also read [CONTRIBUTING.md](./CONTRIBUTING.md).
 
