@@ -18,4 +18,4 @@ Many developers today use different technologies (backend/CMS/JavaScript framewo
 
 This is still under early development, but we would like to hear any suggestions from community members in the meantime. **[WordPress](https://wordpress.org/) is the first ecosystem we are supporting** and we plan on including a number of JavaScript frameworks and CMS platforms soon after.
 
-Before contributing in any way, please read [CONTRIBUTING.md](./CONTRIBUTING.md)!
+Before contributing in any way, please read the [contributing guidelines](./CONTRIBUTING.md)!
