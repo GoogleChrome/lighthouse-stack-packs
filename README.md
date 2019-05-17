@@ -8,7 +8,7 @@ Many developers today use different technologies (backend/CMS/JavaScript framewo
 
 
 <p align="center">
-  <img alt="Prototype" title="Prototype" src="https://raw.githubusercontent.com/GoogleChrome/lighthouse-stack-packs/paulirish-patch-1/image-example.png">
+  <img alt="Prototype" title="Prototype" src="https://raw.githubusercontent.com/GoogleChrome/lighthouse-stack-packs/master/image-example.png">
 </p>
 
 
