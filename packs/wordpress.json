@@ -15,7 +15,7 @@
   "time_to_first_byte": "Themes, plugins, and server specifications all contribute to server response time. Consider finding a more optimized theme, carefully selecting an optimization plugin, and/or upgrading your server.",
   "redirects": "",
   "user-timings": "",
-  "uses-rel-preconnect": "",
+  "uses-rel-preconnect": "Consider using a [plugin](https://wordpress.org/plugins/search/preconnect/) to specify third-party domains to preconnect or prefetch.",
   "uses-rel-preload": "",
   "critical-request-chains": "",
   "dom-size": "",
