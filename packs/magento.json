@@ -1,0 +1,11 @@
+{
+  "first-contentful-paint": "Magento's built-in JS bundling injects large, blocking script requests in the head of the document, blocking the first paint. Consider implementing the [`r.js` method](https://github.com/magento/m2-devtools/blob/master/docs/panels/RequireJS.md).",
+  "font-display": "Specify `@font-display` when [defining custom fonts](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/css-topics/using-fonts.html).",
+  "http-redirects-to-https": "Ensure you have set the `use-secure`, `base-url-secure`, and `use-secure-admin` parameters to (always use HTTPS)(https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-store.html).",
+  "https": "Ensure you have set the `use-secure`, `base-url-secure`, and `use-secure-admin` parameters to (always use HTTPS)(https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-store.html).",
+  "network-payloads": "Disable the built-in bundling feature in Magento, and instead [utilize r.js bundling](https://github.com/magento/m2-devtools/blob/master/docs/panels/RequireJS.md).",
+  "optimize-images": "See the Magento Marketplace for a variety of 3rd party extensions to optimize images.",
+  "preconnect": "`<link rel=\"preconnect\" />` tags can be added through the [\"Scripts and Style Sheets\" store configuration view](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/xml-manage.html#layout_markup_css) in the admin interface.",
+  "unused-css": "Magento does not have built-in support for deferring CSS, but it can be accomplished using 3rd party tools in CI or in local development.",
+  "webp": "See the Magento Marketplace for a variety of 3rd party extensions to optimize images."
+}
