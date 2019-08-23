@@ -1,0 +1,23 @@
+{
+  "unused_css_rules": "",
+  "uses_webp_images": "",
+  "offscreen_images": "",
+  "total_byte_weight": "Apply route-level code-splitting to minimize the size of your JavaScript bundles. [Learn more](https://web.dev/route-level-code-splitting-in-angular/). Also, consider precaching assets with the [Angular service worker](https://web.dev/precaching-with-the-angular-service-worker/).",
+  "render_blocking_resources": "",
+  "unminified_css": "If you are using Angular CLI, ensure that builds are generated in production mode. [Learn more](https://angular.io/guide/deployment#enable-runtime-production-mode).",
+  "unminified_javascript": "If you are using Angular CLI, ensure that builds are generated in production mode. [Learn more](https://angular.io/guide/deployment#enable-runtime-production-mode).",
+  "efficient_animated_content": "",
+  "unused_javascript": "If you are using Angular CLI, include source maps into your production build to inspect your bundles. [Learn more](https://angular.io/guide/deployment#inspect-the-bundles).",
+  "uses_long_cache_ttl": "",
+  "uses_optimized_images": "",
+  "uses_text_compression": "",
+  "uses_responsive_images": "Consider using the `BreakpointObserver` utility in the Component Dev Kit (CDK) to manage image breakpoints. [Learn more](https://material.angular.io/cdk/layout/overview).",
+  "time_to_first_byte": "",
+  "redirects": "",
+  "user-timings": "",
+  "uses-rel-preconnect": "",
+  "uses-rel-preload": "Preload routes ahead of time to speed up navigation. [Learn more](https://web.dev/route-preloading-in-angular/).",
+  "critical-request-chains": "",
+  "dom-size": "Consider virtual scrolling with the Component Dev Kit (CDK) if very large lists are being rendered. [Learn more](https://web.dev/virtualize-lists-with-angular-cdk/).",
+  "font-display": ""
+}
