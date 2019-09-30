@@ -6,7 +6,7 @@
   "render_blocking_resources":  "Consider structuring the head of your HTML document so that all render-blocking resources load as fast as possible. [Learn more](https://www.ampproject.org/docs/fundamentals/optimize_amp#optimize-the-amp-runtime-loading).",
   "unminified_css": "Refer to the [AMP documentation](https://www.ampproject.org/docs/design/responsive/style_pages) to ensure all your styles are supported.",
   "unminified_javascript": "",
-  "efficient_animated_content": "For animated content, use [`amp-anim`](https://www.ampproject.org/docs/reference/components/amp-anim) to minimize CPU usage while the content remains offscreen.",
+  "efficient_animated_content": "For animated content, use [amp-anim](https://www.ampproject.org/docs/reference/components/amp-anim) to minimize CPU usage while the content remains offscreen.",
   "unused_javascript": "",
   "uses_long_cache_ttl": "",
   "uses_optimized_images": "",
@@ -19,5 +19,5 @@
   "uses-rel-preload": "",
   "critical-request-chains": "",
   "dom-size": "",
-  "font-display": "Use the [`amp-font`](https://www.ampproject.org/docs/reference/components/amp-font#on-load-add-class) component to control the loading of custom fonts on your page."
+  "font-display": "Use the [amp-font](https://www.ampproject.org/docs/reference/components/amp-font#on-load-add-class) component to control the loading of custom fonts on your page."
 }
