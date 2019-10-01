@@ -1,0 +1,23 @@
+{
+  "unused_css_rules": "Magento does not have built-in support for deferring CSS, but it can be accomplished using third-party tools in CI or in local development.",
+  "uses_webp_images": "Consider searching the [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=webp) for a variety of third-party extensions to leverage newer image formats.",
+  "offscreen_images": "Consider searching the [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=lazy%20load) for a third-party extension to offscreen lazy-load images and products.",
+  "total_byte_weight": "Disable the built-in bundling feature in Magento, and instead utilize [r.js bundling](https://github.com/magento/m2-devtools/blob/master/docs/panels/RequireJS.md).",
+  "render_blocking_resources": "",
+  "unminified_css": "",
+  "unminified_javascript": "",
+  "efficient_animated_content": "",
+  "unused_javascript": "",
+  "uses_long_cache_ttl": "",
+  "uses_optimized_images": "Consider searching the [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=optimize%20image) for a variety of third party extensions to optimize images.",
+  "uses_text_compression": "",
+  "uses_responsive_images": "",
+  "time_to_first_byte": "",
+  "redirects": "",
+  "user-timings": "",
+  "uses-rel-preconnect": "Preconnect or dns-prefetch resource hints can be added through the [\"Scripts and Style Sheets\" store configuration view](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/xml-manage.html#layout_markup_css) in the admin interface.",
+  "uses-rel-preload": "`<link rel=preload>` tags can be added through the [\"Scripts and Style Sheets\" store configuration view](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/xml-manage.html#layout_markup_css) in the admin interface.",
+  "critical-request-chains": "",
+  "dom-size": "",
+  "font-display": "Specify `@font-display` when [defining custom fonts](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/css-topics/using-fonts.html)."
+}
