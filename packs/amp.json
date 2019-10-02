@@ -1,17 +1,17 @@
 {
   "unused_css_rules": "",
-  "uses_webp_images": "Consider displaying all your `amp-img` components in WebP formats while specifying an appropriate fallback for other browsers. [Learn more](https://www.ampproject.org/docs/reference/components/amp-img#example:-specifying-a-fallback-image).",
-  "offscreen_images": "",
+  "uses_webp_images": "Consider displaying all your `amp-img` components in WebP formats while specifying an appropriate fallback for other browsers. [Learn more](https://amp.dev/documentation/components/amp-img/#example:-specifying-a-fallback-image).",
+  "offscreen_images": "`amp-img` automatically lazy-loads images outside the first viewport. There's nothing you need to do.",
   "total_byte_weight": "",
-  "render_blocking_resources":  "Consider structuring the head of your HTML document so that all render-blocking resources load as fast as possible. [Learn more](https://www.ampproject.org/docs/fundamentals/optimize_amp#optimize-the-amp-runtime-loading).",
-  "unminified_css": "Refer to the [AMP documentation](https://www.ampproject.org/docs/design/responsive/style_pages) to ensure all your styles are supported.",
+  "render_blocking_resources":  "Use tools such as [AMP Optimizer](https://github.com/ampproject/amp-toolbox/tree/master/packages/optimizer) to [server-side render AMP layouts](https://amp.dev/documentation/guides-and-tutorials/optimize-and-measure/server-side-rendering/).",
+  "unminified_css": "Refer to the [AMP documentation](https://amp.dev/documentation/guides-and-tutorials/develop/style_and_layout/style_pages/) to ensure all your styles are supported.",
   "unminified_javascript": "",
-  "efficient_animated_content": "For animated content, use [amp-anim](https://www.ampproject.org/docs/reference/components/amp-anim) to minimize CPU usage while the content remains offscreen.",
+  "efficient_animated_content": "For animated content, use [amp-anim](https://amp.dev/documentation/components/amp-anim/) to minimize CPU usage while the content remains offscreen.",
   "unused_javascript": "",
   "uses_long_cache_ttl": "",
   "uses_optimized_images": "",
   "uses_text_compression": "",
-  "uses_responsive_images": "The `amp-img` element supports the `srcset` attribute to specify which image assets to use based on the screen size.  [Learn more](https://www.ampproject.org/docs/design/responsive/art_direction).",
+  "uses_responsive_images": "The `amp-img` element supports the `srcset` attribute to specify which image assets to use based on the screen size.  [Learn more](https://amp.dev/documentation/guides-and-tutorials/develop/style_and_layout/art_direction/).",
   "time_to_first_byte": "",
   "redirects": "",
   "user-timings": "",
@@ -19,5 +19,5 @@
   "uses-rel-preload": "",
   "critical-request-chains": "",
   "dom-size": "",
-  "font-display": "Use the [amp-font](https://www.ampproject.org/docs/reference/components/amp-font#on-load-add-class) component to control the loading of custom fonts on your page."
+  "font-display": ""
 }
