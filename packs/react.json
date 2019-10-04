@@ -2,12 +2,12 @@
   "unused_css_rules": "",
   "uses_webp_images": "",
   "offscreen_images": "",
-  "total_byte_weight": "Split your JavaScript bundles with React.lazy(). [Learn more](https://web.dev/code-splitting-suspense/).",
+  "total_byte_weight": "",
   "render_blocking_resources": "",
   "unminified_css": "If your build system minifies your CSS files automatically, ensure that you are deploying the production build of your application. You can check this with the React Developer Tools extension. [Learn more](https://reactjs.org/docs/optimizing-performance.html#use-the-production-build).",
   "unminified_javascript": "If your build system minifies your CSS files automatically, ensure that you are deploying the production build of your application. You can check this with the React Developer Tools extension. [Learn more](https://reactjs.org/docs/optimizing-performance.html#use-the-production-build).",
   "efficient_animated_content": "",
-  "unused_javascript": "",
+  "unused_javascript": "If you are not server-side rendering, split your JavaScript bundles with [React.lazy()](https://web.dev/code-splitting-suspense/). Otherwise, code-split using a third-party library such as [loadable-components](https://www.smooth-code.com/open-source/loadable-components/docs/getting-started/).",
   "uses_long_cache_ttl": "",
   "uses_optimized_images": "",
   "uses_text_compression": "",
@@ -18,6 +18,6 @@
   "uses-rel-preconnect": "",
   "uses-rel-preload": "",
   "critical-request-chains": "",
-  "dom-size": "If you are rendering very large lists, consider using a “windowing” library like `react-window` to minimize the number of DOM nodes created. [Learn more.](https://web.dev/virtualize-long-lists-react-window/)",
+  "dom-size": "If you are rendering very large lists, consider using a “windowing” library like `react-window` to minimize the number of DOM nodes created. [Learn more](https://web.dev/virtualize-long-lists-react-window/). Also, minimize unecessary re-renders using [shouldComponentUpdate](https://reactjs.org/docs/optimizing-performance.html#shouldcomponentupdate-in-action), [PureComponent](https://reactjs.org/docs/react-api.html#reactpurecomponent), or [React.memo](https://reactjs.org/docs/react-api.html#reactmemo) and [skip effects](https://reactjs.org/docs/hooks-effect.html#tip-optimizing-performance-by-skipping-effects) only until certain dependencies have changed if you are using the Effect hook to improve runtime performance.",
   "font-display": ""
 }
