@@ -19,7 +19,7 @@ again.
 Want to submit a brand new stack pack? Awesome! In order for a stack pack to be considered however, the following must be met:
 
 * There should be a simple way to detect the stack via JS/DOM properties
-* At least 13 of the performance audits should have stack-specific recommendations
+* At least 6 of the performance audits should have stack-specific recommendations
 * A significant number of websites (~ in the 10's of thousands) should be using the stack. Consider using [HTTP Archive](https://discuss.httparchive.org/t/javascript-library-detection/955/2) to detect the number sites used by the particular tool.
 * There must be a minimum of two maintainers for each stack from the community who can help review and provide suggestions. We (Google) should not be the ones to decide what the audit recommendations should be.
 
