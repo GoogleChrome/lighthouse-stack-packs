@@ -13,7 +13,7 @@
   "uses_text_compression": "",
   "uses_responsive_images": "",
   "time_to_first_byte": "If you are server-side rendering any React components, consider using `renderToNodeStream()` or `renderToStaticNodeStream()` to allow the client to receive and hydrate different parts of the markup instead of all at once. [Learn more](https://reactjs.org/docs/react-dom-server.html#rendertonodestream).",
-  "redirects": "If you are using React Router, minimize usage of the [<Redirect>](https://reacttraining.com/react-router/web/api/Redirect) component.",
+  "redirects": "If you are using React Router, minimize usage of the `<Redirect>` component for [route navigations](https://reacttraining.com/react-router/web/api/Redirect).",
   "user-timings": "Use the React DevTools Profiler, which makes use of the Profiler API, to measure the rendering performance of your components. [Learn more.](https://reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html)",
   "uses-rel-preconnect": "",
   "uses-rel-preload": "",
