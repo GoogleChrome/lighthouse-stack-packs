@@ -1,5 +1,5 @@
 {
-  "unused_css_rules": "Magento does not have built-in support for deferring CSS, but it can be accomplished using third-party tools in CI or in local development.",
+  "unused_css_rules": "",
   "uses_webp_images": "Consider searching the [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=webp) for a variety of third-party extensions to leverage newer image formats.",
   "offscreen_images": "Consider modifying your product and catalog templates to make use of the web platform's [lazy loading](https://web.dev/native-lazy-loading) feature.",
   "total_byte_weight": "Disable Magento's built-in [JavaScript bundling and minification](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/themes/js-bundling.html), and consider using [baler](https://github.com/magento/baler/).",
