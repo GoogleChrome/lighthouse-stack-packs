@@ -18,16 +18,16 @@ again.
 
 Want to submit a brand new stack pack? Awesome! In order for a stack pack to be considered however, the following must be met:
 
-* There should be a simple way to detect the stack via JS/DOM properties
-* At least 6 of the performance audits should have stack-specific recommendations
-* A significant number of websites (~ in the 10's of thousands) should be using the stack. Consider using [HTTP Archive](https://discuss.httparchive.org/t/javascript-library-detection/955/2) to detect the number sites used by the particular tool.
-* There must be a minimum of two maintainers for each stack from the community who can help review and provide suggestions. We (Google) should not be the ones to decide what the audit recommendations should be.
+- There should be a simple way to detect the stack via JS/DOM properties
+- At least 6 of the performance audits should have stack-specific recommendations
+- A significant number of websites (~ in the 10's of thousands) should be using the stack. Consider using [HTTP Archive](https://discuss.httparchive.org/t/javascript-library-detection/955/2) to detect the number sites used by the particular tool.
+- There must be a minimum of two maintainers for each stack from the community who can help review and provide suggestions. We (Google) should not be the ones to decide what the audit recommendations should be.
 
-If all of these are met, submit a PR for review! Copy the `general.json` file into the `packs/` directory and change each audit string to a specific recommendation regarding your stack. If you can't provide a recommendation for a particular audit, change it to an empty string. However, you will need to provide at least 13 audit strings as mentioned earlier.
+If all of these are met, submit a PR for review! Copy the `general.js` file into the `packs/` directory and change each audit string to a specific recommendation regarding your stack. If you can't provide a recommendation for a particular audit, change it to an empty string. However, you will need to provide at least 13 audit strings as mentioned earlier.
 
 ## Submitting changes to audit strings
 
-Do you notice a specific audit string for a particular pack that is wrong or could be a little better? Please submit a PR! 
+Do you notice a specific audit string for a particular pack that is wrong or could be a little better? Please submit a PR!
 
 ## FAQ
 
