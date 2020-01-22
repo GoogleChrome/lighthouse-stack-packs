@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "module": "commonjs",
+    "noEmit": false,
+    "strict": true,
+    "target": "ES2017",
+    "resolveJsonModule": true,
+    "diagnostics": true
+  },
+  "exclude": ["./general.js", "./packs/**/*.d.ts"]
+}
