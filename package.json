@@ -18,6 +18,7 @@
     "typescript": "^3.7.5"
   },
   "scripts": {
+    "prepublish": "generate-types",
     "generate-types": "tsc -p ."
   }
 }
