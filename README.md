@@ -6,23 +6,18 @@ Many developers today use different technologies (backend/CMS/JavaScript framewo
 
 **Stack Packs** allow Lighthouse to detect what platform your site is built on and display specific stack-based recommendations. These recommendations are defined and curated by experts from the community.
 
-
 <p align="center">
   <img alt="Prototype" title="Prototype" src="https://raw.githubusercontent.com/GoogleChrome/lighthouse-stack-packs/master/image-example.png">
 </p>
 
+## Supported
 
-## Shipping
-
-* [WordPress](https://houssein.me/lighthouse/viewer-wordpress/?gist=9efc3fc22dc500620c884db995e3fb6c)
-
-## In Development
-
-* [React](https://react-pack-demo-25wm86cuv.now.sh/)
-* [AMP](https://amp-pack-demo-5v0c7chul.now.sh/)
+* WordPress
+* React
+* Angular
+* AMP
+* Magento
 
 ## Contributing
 
-[WordPress](https://wordpress.org/) is the first ecosystem we shipped support for, and we'd like to define stack packs for the  major JavaScript frameworks and CMS platforms next. Please file an issue or make a pull request to get involved.
-
-Before contributing in any way, please read the [contributing guidelines](./CONTRIBUTING.md)!
+Interested in contributing? Please read the [contributing guidelines](./CONTRIBUTING.md)!
