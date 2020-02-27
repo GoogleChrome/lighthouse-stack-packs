@@ -17,6 +17,8 @@ const UIStrings = {
 };
 
 module.exports = {
+  id: 'amp',
+  title: 'AMP',
   icon,
-  UIStrings: UIStrings,
-}
+  UIStrings,
+};

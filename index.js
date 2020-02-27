@@ -1,1 +1,9 @@
-// empty file to make sure require.resolve works
+const stackPacks = [
+  require('./packs/wordpress.js'),
+  require('./packs/react.js'),
+  require('./packs/angular.js'),
+  require('./packs/amp.js'),
+  require('./packs/magento.js')
+];
+
+module.exports = stackPacks;
