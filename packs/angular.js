@@ -17,6 +17,8 @@ const UIStrings = {
 };
 
 module.exports = {
+  id: 'angular',
+  title: 'Angular',
   icon,
   UIStrings,
 }
