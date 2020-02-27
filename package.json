@@ -16,10 +16,11 @@
   "homepage": "https://github.com/GoogleChrome/lighthouse-stack-packs#readme",
   "main": "index.js",
   "devDependencies": {
-    "typescript": "^3.7.5"
+    "del-cli": "^3.0.0",
+    "typescript": "^3.8.2"
   },
   "scripts": {
-    "prepublishOnly": "npm run generate-types",
+    "prepublishOnly": "del-cli \"*.d.ts\" \"packs/*.d.ts\" && npm run generate-types",
     "generate-types": "tsc -p ."
   },
   "files": [
