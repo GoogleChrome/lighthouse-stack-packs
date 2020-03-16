@@ -1,6 +1,6 @@
 {
   "name": "lighthouse-stack-packs",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Lighthouse Stack Packs",
   "repository": "GoogleChrome/lighthouse-stack-packs",
   "keywords": [
