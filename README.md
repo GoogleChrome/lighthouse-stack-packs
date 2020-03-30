@@ -13,6 +13,7 @@ Many developers today use different technologies (backend/CMS/JavaScript framewo
 ## Supported
 
 * WordPress
+* Drupal
 * React
 * Angular
 * AMP
