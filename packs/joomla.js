@@ -13,33 +13,33 @@ const JoomlaIcon = `data:image/svg+xml,%3Csvg+width%3D%22256px%22+height%3D%2225
 
 const UIStrings = {
   /** Additional description of a Lighthouse audit that tells the user how they can improve performance by removing unused CSS, in the context of the Joomla CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
-  unused_css_rules: 'Consider reducing, or switching, the number of [Joomla extensions](https://extensions.joomla.org/) loading unused CSS in your page. To identify extensions that are adding extraneous CSS, try running [code coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage) in Chrome DevTools. You can identify the theme/plugin responsible from the URL of the stylesheet. Look out for plugins that have many stylesheets in the list which have a lot of red in code coverage. A plugin should only enqueue a stylesheet if it is actually used on the page.',
+  'unused-css-rules': 'Consider reducing, or switching, the number of [Joomla extensions](https://extensions.joomla.org/) loading unused CSS in your page. To identify extensions that are adding extraneous CSS, try running [code coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage) in Chrome DevTools. You can identify the theme/plugin responsible from the URL of the stylesheet. Look out for plugins that have many stylesheets in the list which have a lot of red in code coverage. A plugin should only enqueue a stylesheet if it is actually used on the page.',
   /** Additional description of a Lighthouse audit that tells the user how they can improve image loading by using webp in the context of the Joomla CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
-  uses_webp_images: 'Consider using a [plugin](https://extensions.joomla.org/instant-search/?jed_live%5Bquery%5D=webp) or service that will automatically convert your uploaded images to the optimal formats.',
+  'uses-webp-images': 'Consider using a [plugin](https://extensions.joomla.org/instant-search/?jed_live%5Bquery%5D=webp) or service that will automatically convert your uploaded images to the optimal formats.',
   /** Additional description of a Lighthouse audit that tells the user how they can improve performance by lazy loading images that are initially offscreen in the context of the Joomla CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
-  offscreen_images: 'Install a [lazy-load Joomla plugin](https://extensions.joomla.org/instant-search/?jed_live%5Bquery%5D=lazy%20loading) that provides the ability to defer any offscreen images, or switch to a template that provides that functionality. Starting with Joomla 4.0 the core is shipping an dedicated lazyloading plugin please enable the "Content - Lazy Loading Images" plugin. Also consider using [an AMP plugin](https://extensions.joomla.org/instant-search/?jed_live%5Bquery%5D=amp).',
+  'offscreen-images': 'Install a [lazy-load Joomla plugin](https://extensions.joomla.org/instant-search/?jed_live%5Bquery%5D=lazy%20loading) that provides the ability to defer any offscreen images, or switch to a template that provides that functionality. Starting with Joomla 4.0 the core is shipping an dedicated lazyloading plugin please enable the "Content - Lazy Loading Images" plugin. Also consider using [an AMP plugin](https://extensions.joomla.org/instant-search/?jed_live%5Bquery%5D=amp).',
   /** Additional description of a Lighthouse audit that tells the user how they can improve site loading performance by reducing the total bytes delivered by their page in the context of the Joomla CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
-  total_byte_weight: 'Consider showing excerpts in your article categories (e.g. via the read more link), reducing the number of articles shown on a given page, breaking your long posts into multiple pages, or using a plugin to lazy-load comments.',
+  'total-byte-weight': 'Consider showing excerpts in your article categories (e.g. via the read more link), reducing the number of articles shown on a given page, breaking your long posts into multiple pages, or using a plugin to lazy-load comments.',
   /** Additional description of a Lighthouse audit that tells the user how they can improve performance by reducing the amount of render blocking resources present on their page, in the context of the Joomla CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
-  render_blocking_resources: 'There are a number of Joomla plugins that can help you [inline critical assets](https://extensions.joomla.org/instant-search/?jed_live%5Bquery%5D=performance) or [defer less important resources](https://extensions.joomla.org/instant-search/?jed_live%5Bquery%5D=performance). Beware that optimizations provided by these plugins may break features of your templates or plugins, so you will need to test these thoroughly.',
+  'render-blocking-resources': 'There are a number of Joomla plugins that can help you [inline critical assets](https://extensions.joomla.org/instant-search/?jed_live%5Bquery%5D=performance) or [defer less important resources](https://extensions.joomla.org/instant-search/?jed_live%5Bquery%5D=performance). Beware that optimizations provided by these plugins may break features of your templates or plugins, so you will need to test these thoroughly.',
   /** Additional description of a Lighthouse audit that tells the user how they can improve performance by minifying their CSS files in the context of the Joomla CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
-  unminified_css: 'A number of [Joomla extensions](https://extensions.joomla.org/instant-search/?jed_live%5Bquery%5D=performance) can speed up your site by concatenating, minifying, and compressing your css styles. There are also templates that provide this functionality.',
+  'unminified-css': 'A number of [Joomla extensions](https://extensions.joomla.org/instant-search/?jed_live%5Bquery%5D=performance) can speed up your site by concatenating, minifying, and compressing your css styles. There are also templates that provide this functionality.',
   /** Additional description of a Lighthouse audit that tells the user how they can improve performance by minifying their Javascript files in the context of the Joomla CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
-  unminified_javascript: 'A number of [Joomla extensions](https://extensions.joomla.org/instant-search/?jed_live%5Bquery%5D=performance) can speed up your site by concatenating, minifying, and compressing your scripts. There are also templates that provide this functionality.',
+  'unminified-javascript': 'A number of [Joomla extensions](https://extensions.joomla.org/instant-search/?jed_live%5Bquery%5D=performance) can speed up your site by concatenating, minifying, and compressing your scripts. There are also templates that provide this functionality.',
   /** Additional description of a Lighthouse audit that tells the user how they can improve performance by encoding animated images as video, in the context of the Joomla CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
-  efficient_animated_content: 'Consider uploading your GIF to a service which will make it available to embed as an HTML5 video.',
+  'efficient-animated-content': 'Consider uploading your GIF to a service which will make it available to embed as an HTML5 video.',
   /** Additional description of a Lighthouse audit that tells the user how they can improve performance by removing unused Javascript files in the context of the Joomla CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
-  unused_javascript: 'Consider reducing, or switching, the number of [Joomla extensions](https://extensions.joomla.org/) loading unused JavaScript in your page. To identify plugins that are adding extraneous JS, try running [code coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage) in Chrome DevTools. You can identify the extension responsible from the URL of the script. Look out for extensions that have many scripts in the list which have a lot of red in code coverage. An extension should only enqueue a script if it is actually used on the page.',
+  'unused-javascript': 'Consider reducing, or switching, the number of [Joomla extensions](https://extensions.joomla.org/) loading unused JavaScript in your page. To identify plugins that are adding extraneous JS, try running [code coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage) in Chrome DevTools. You can identify the extension responsible from the URL of the script. Look out for extensions that have many scripts in the list which have a lot of red in code coverage. An extension should only enqueue a script if it is actually used on the page.',
   /** Additional description of a Lighthouse audit that tells the user how they can improve their site by enabling long caching in the context of the Joomla CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
-  uses_long_cache_ttl: 'Read about [Browser Caching in Joomla](https://docs.joomla.org/Cache).',
+  'uses-long-cache-ttl': 'Read about [Browser Caching in Joomla](https://docs.joomla.org/Cache).',
   /** Additional description of a Lighthouse audit that tells the user how they can improve site performance by optimizing images, in the context of the Joomla CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
-  uses_optimized_images: 'Consider using an [image optimization plugin](https://extensions.joomla.org/instant-search/?jed_live%5Bquery%5D=performance) that compresses your images while retaining quality.',
+  'uses-optimized-images': 'Consider using an [image optimization plugin](https://extensions.joomla.org/instant-search/?jed_live%5Bquery%5D=performance) that compresses your images while retaining quality.',
   /** Additional description of a Lighthouse audit that tells the user how they can improve performance via enabling text compression in the context of the Joomla CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
-  uses_text_compression: 'You can enable text compression by enabling Gzip Page Compression in Joomla (System > Global configuration > Server).',
+  'uses-text-compression': 'You can enable text compression by enabling Gzip Page Compression in Joomla (System > Global configuration > Server).',
   /** Additional description of a Lighthouse audit that tells the user how they can improve performance by using responsive images in the context of the Joomla CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
-  uses_responsive_images: 'Consider using a [responsive images plugin](https://extensions.joomla.org/instant-search/?jed_live%5Bquery%5D=responsive%20images) to use responsive images in your content.',
+  'uses-responsive-images': 'Consider using a [responsive images plugin](https://extensions.joomla.org/instant-search/?jed_live%5Bquery%5D=responsive%20images) to use responsive images in your content.',
   /** Additional description of a Lighthouse audit that tells the user how they can improve the server-response-time speed metric, in the context of the Joomla CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
-  server_response_time: 'Templates, extensions, and server specifications all contribute to server response time. Consider finding a more optimized template, carefully selecting an optimization extension, and/or upgrading your server.',
+  'server-response-time': 'Templates, extensions, and server specifications all contribute to server response time. Consider finding a more optimized template, carefully selecting an optimization extension, and/or upgrading your server.',
 };
 
 const str_ = i18n.createMessageInstanceIdFn(__filename, UIStrings);
@@ -49,20 +49,20 @@ module.exports = {
   iconDataURL: JoomlaIcon,
   title: 'Joomla',
   descriptions: {
-    'unused-css-rules': str_(UIStrings.unused_css_rules),
-    'uses-webp-images': str_(UIStrings.uses_webp_images),
-    'offscreen-images': str_(UIStrings.offscreen_images),
-    'total-byte-weight': str_(UIStrings.total_byte_weight),
-    'render-blocking-resources': str_(UIStrings.render_blocking_resources),
-    'unminified-css': str_(UIStrings.unminified_css),
-    'unminified-javascript': str_(UIStrings.unminified_javascript),
-    'efficient-animated-content': str_(UIStrings.efficient_animated_content),
-    'unused-javascript': str_(UIStrings.unused_javascript),
-    'uses-long-cache-ttl': str_(UIStrings.uses_long_cache_ttl),
-    'uses-optimized-images': str_(UIStrings.uses_optimized_images),
-    'uses-text-compression': str_(UIStrings.uses_text_compression),
-    'uses-responsive-images': str_(UIStrings.uses_responsive_images),
-    'server-response-time': str_(UIStrings.server_response_time),
+    'unused-css-rules': str_(UIStrings.'unused-css-rules'),
+    'uses-webp-images': str_(UIStrings.'uses-webp-images'),
+    'offscreen-images': str_(UIStrings.'offscreen-images'),
+    'total-byte-weight': str_(UIStrings.'total-byte-weight'),
+    'render-blocking-resources': str_(UIStrings.'render-blocking-resources'),
+    'unminified-css': str_(UIStrings.'unminified-css'),
+    'unminified-javascript': str_(UIStrings.'unminified-javascript'),
+    'efficient-animated-content': str_(UIStrings.'efficient-animated-content'),
+    'unused-javascript': str_(UIStrings.'unused-javascript'),
+    'uses-long-cache-ttl': str_(UIStrings.'uses-long-cache-ttl'),
+    'uses-optimized-images': str_(UIStrings.'uses-optimized-images'),
+    'uses-text-compression': str_(UIStrings.'uses-text-compression'),
+    'uses-responsive-images': str_(UIStrings.'uses-responsive-images'),
+    'server-response-time': str_(UIStrings.'server-response-time'),
   },
 };
 module.exports.UIStrings = UIStrings;
