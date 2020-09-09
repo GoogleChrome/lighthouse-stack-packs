@@ -4,7 +4,8 @@ const stackPacks = [
   require('./packs/react.js'),
   require('./packs/angular.js'),
   require('./packs/amp.js'),
-  require('./packs/magento.js')
+  require('./packs/magento.js'),
+  require('./packs/joomla.js'),
 ];
 
 module.exports = stackPacks;
