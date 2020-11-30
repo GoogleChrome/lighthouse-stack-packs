@@ -6,6 +6,7 @@ const stackPacks = [
   require('./packs/amp.js'),
   require('./packs/magento.js'),
   require('./packs/joomla.js'),
+  require('./packs/october.js'),
 ];
 
 module.exports = stackPacks;
