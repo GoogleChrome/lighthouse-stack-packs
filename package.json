@@ -17,11 +17,14 @@
   "main": "index.js",
   "devDependencies": {
     "del-cli": "^3.0.0",
-    "typescript": "^3.8.2"
+    "lighthouse": "GoogleChrome/lighthouse#master",
+    "typescript": "^3.8.2",
+    "uvu": "^0.5.1"
   },
   "scripts": {
     "prepublishOnly": "del-cli \"*.d.ts\" \"packs/*.d.ts\" && npm run generate-types",
-    "generate-types": "tsc -p ."
+    "generate-types": "tsc -p .",
+    "test": "uvu test"
   },
   "files": [
     "packs/*",
