@@ -22,6 +22,8 @@ test('packs are well-structured', () => {
 
     assert.ok(typeof pack.title === 'string' && pack.title.length);
     assert.ok(typeof pack.icon === 'string' && pack.icon.length);
+
+    // TODO: Also, need to validate that the SVG is a valid data uri and load successfully (valid XML?). https://github.com/GoogleChrome/lighthouse-stack-packs/pull/60
     assert.ok(pack.icon.startsWith('data:image/svg+xml,'));
 
     assert.ok(Object.entries(pack.UIStrings).length);
