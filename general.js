@@ -26,6 +26,8 @@ const UIStrings = {
 }
 
 module.exports = {
+  id: '<please fill>',
+  title: '<please fill>',
   icon,
   UIStrings,
 }
