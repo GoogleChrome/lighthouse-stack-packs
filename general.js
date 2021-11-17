@@ -51,6 +51,8 @@ const UIStrings = {
 }
 
 module.exports = {
+  id: '<FILL>',
+  title: '<FILL>',
   icon,
   UIStrings,
-}
+};
