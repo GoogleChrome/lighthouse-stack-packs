@@ -1,7 +1,7 @@
 // When making a stack pack, copy this file and fill out the comments marked <FILL>
 // The comments above each UIString entry are presented to our translators for context.
 // Use it to describe framework-specific terms.
-// If a work or phrase should not be translated, put it in backticks.
+// If a word or phrase should not be translated, put it in backticks.
 
 const icon = `data:image/svg+xml,svg icon`;
 
