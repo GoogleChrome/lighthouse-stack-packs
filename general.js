@@ -3,7 +3,8 @@
 // Use it to describe framework-specific terms.
 // If a word or phrase should not be translated, put it in backticks.
 
-const icon = `data:image/svg+xml,svg icon`;
+// Minify with https://jakearchibald.github.io/svgomg/
+const icon = `data:image/svg+xml,<svg>FILL</svg>`;
 
 const UIStrings = {
   /** Additional description of a Lighthouse audit for a third-party framework called `<FILL>`. This is displayed after a user expands the section to see more. No character length limits. 'Learn More' becomes link text to additional documentation. <FILL FRAMEWORK SPECIFIC TERMS HERE> */
