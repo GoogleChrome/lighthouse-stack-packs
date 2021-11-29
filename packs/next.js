@@ -10,7 +10,7 @@ const UIStrings = {
   /** Additional description of a Lighthouse audit that tells the user to use next/script to defer loading of non-critical third-party libraries. */
   'render-blocking-resources': 'Use the `next/script` component to defer loading of non-critical third-party scripts. [Learn more](https://nextjs.org/docs/basic-features/script).',
   /** Additional description of a Lighthouse audit that tells the user to use Webpack Bundle Analyzer to discover JavaScript code that is not used. */
-  'unused-javascript': 'Use `Webpack Bundle Analyzer` to detect unused JavaScript code. [Learn mode](https://github.com/vercel/next.js/tree/canary/packages/next-bundle-analyzer)',
+  'unused-javascript': 'Use `Webpack Bundle Analyzer` to detect unused JavaScript code. [Learn more](https://github.com/vercel/next.js/tree/canary/packages/next-bundle-analyzer)',
   /** Additional description of a Lighthouse audit that tells the user to enable caching for assets (e.g. images) and server-side rendered (SSR) pages that don't change between deployments. */
   'uses-long-cache-ttl': 'Configure caching for immutable assets and `Server-side Rendered` (SSR) pages. [Learn more](https://nextjs.org/docs/going-to-production#caching).',
   /** Additional description of a Lighthouse audit that tells the user to use the next/image component to display optimized images. */
