@@ -26,7 +26,7 @@ const UIStrings = {
   /** Additional description of a Lighthouse audit for a third-party framework called `Ezoic`. This is displayed after a user expands the section to see more. No character length limits. Ezoic Leap is Ezoic's site speed improvement toolset. Preload Fonts and Preload Background Images are setting names.*/
   'uses-rel-preload': 'Use [Ezoic Leap](https://pubdash.ezoic.com/speed) and enable `Preload Fonts` and `Preload Background Images` to add `preload` links to prioritize fetching resources that are currently requested later in page load.',
   /** Additional description of a Lighthouse audit for a third-party framework called `Ezoic`. This is displayed after a user expands the section to see more. No character length limits. Ezoic Leap is Ezoic's site speed improvement toolset. Optimize Fonts is a setting name.*/
-  'font-display': 'Use [Ezoic Leap](https://pubdash.ezoic.com/speed) and enable `Optimize Fonts` to automatically leverage the font-display CSS feature to ensure text is user-visible while webfonts are loading.',
+  'font-display': 'Use [Ezoic Leap](https://pubdash.ezoic.com/speed) and enable `Optimize Fonts` to automatically leverage the `font-display` CSS feature to ensure text is user-visible while webfonts are loading.',
 }
 
 module.exports = {
