@@ -21,6 +21,8 @@ const UIStrings = {
   'uses-responsive-images': 'Use the `next/image` component to set the appropriate `sizes`. [Learn more](https://nextjs.org/docs/api-reference/next/image#sizes).',
   /** Additional description of a Lighthouse audit that tells the user to analyze the performance of their applications using Next.js Analytics. */
   'user-timings': 'Consider using `Next.js Analytics` to measure your app\'s real-world performance. [Learn more](https://nextjs.org/docs/advanced-features/measuring-performance).',
+  /** Additional description of a Lighthouse audit that tells the user to use the next/image component to automatically preload LCP images. */
+  'preload-lcp-image': 'Use the `next/image` component and set "priority" to true to preload LCP image. [Learn more](https://nextjs.org/docs/api-reference/next/image#priority).',
 }
 
 module.exports = {
