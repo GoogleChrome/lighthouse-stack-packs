@@ -4,9 +4,9 @@ const UIStrings = {
   /** Additional description of a Lighthouse audit that tells the user how they can remove unusused CSS rules by configuring a plugin named PurgeCSS. */
   'unused-css-rules': 'Consider setting up `PurgeCSS` in `Next.js` configuration to remove unused rules from stylesheets. [Learn more](https://purgecss.com/guides/next.html).',
   /** Additional description of a Lighthouse audit that tells the user how they can leverage Next.js Image Optimization API to convert their images to new formats like WebP and AVIF. */
-  'modern-image-formats': 'Use the `Next.js` Image Optimization API to serve modern formats like `WebP` and `AVIF`. [Learn more](https://nextjs.org/docs/api-reference/next/image#acceptable-formats).',
+  'modern-image-formats': 'Use the `next/image` component instead of `<img>` to automatically optimize image format. [Learn more](https://nextjs.org/docs/basic-features/image-optimization).',
   /** Additional description of a Lighthouse audit that tells the user to defer loading images which are not shown on screen using the next/image component. */
-  'offscreen-images': 'Use the `next/image` component, which defaults to `loading="lazy"`. [Learn more](https://nextjs.org/docs/api-reference/next/image#loading).',
+  'offscreen-images': 'Use the `next/image` component instead of `<img>` to automatically lazy-load images. [Learn more](https://nextjs.org/docs/basic-features/image-optimization).',
   /** Additional description of a Lighthouse audit that tells the user to use next/script to defer loading of non-critical third-party libraries. */
   'render-blocking-resources': 'Use the `next/script` component to defer loading of non-critical third-party scripts. [Learn more](https://nextjs.org/docs/basic-features/script).',
   /** Additional description of a Lighthouse audit that tells the user to use Webpack Bundle Analyzer to discover JavaScript code that is not used. */
@@ -14,7 +14,7 @@ const UIStrings = {
   /** Additional description of a Lighthouse audit that tells the user to enable caching for assets (e.g. images) and server-side rendered (SSR) pages that don't change between deployments. */
   'uses-long-cache-ttl': 'Configure caching for immutable assets and `Server-side Rendered` (SSR) pages. [Learn more](https://nextjs.org/docs/going-to-production#caching).',
   /** Additional description of a Lighthouse audit that tells the user to use the next/image component to display optimized images. */
-  'uses-optimized-images': 'Use the `next/image` component instead of `<img>` to optimize images. [Learn more](https://nextjs.org/docs/basic-features/image-optimization).',
+  'uses-optimized-images': 'Use the `next/image` component instead of `<img>` to adjust image quality. [Learn more](https://nextjs.org/docs/basic-features/image-optimization).',
   /** Additional description of a Lighthouse audit that tells the user to enable compression (gzip, brotli) on their servers. */
   'uses-text-compression': 'Enable compression on your Next.js server. [Learn more](https://nextjs.org/docs/api-reference/next.config.js/compression).',
   /** Additional description of a Lighthouse audit that tells the user to serve responsive images using the next/image component with appropriate `sizes` set. */
