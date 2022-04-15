@@ -1,6 +1,6 @@
 {
   "name": "lighthouse-stack-packs",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "Lighthouse Stack Packs",
   "repository": "GoogleChrome/lighthouse-stack-packs",
   "keywords": [
@@ -17,6 +17,7 @@
   "main": "index.js",
   "devDependencies": {
     "del-cli": "^3.0.0",
+    "jsdom": "^12.2.0",
     "lighthouse": "GoogleChrome/lighthouse#master",
     "typescript": "^3.8.2",
     "uvu": "^0.5.1"

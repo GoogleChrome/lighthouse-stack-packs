@@ -4,8 +4,8 @@ const fs = require('fs');
 
 const thisModulesPacks = require('../');
 
-test('all authored packs are refernced in module', () => {
-  const allFilenames = fs.readdirSync(__dirname + '/../packs');
+test('all authored packs are referenced in module', () => {
+  const allFilenames = fs.readdirSync(__dirname + '/../packs').filter(p => p.endsWith('.js'));
   const allPackModules = allFilenames.map(filename => require(`${__dirname}/../packs/${filename}`));
   const allPackModuleIds = allPackModules.map(pack => pack.id);
 
