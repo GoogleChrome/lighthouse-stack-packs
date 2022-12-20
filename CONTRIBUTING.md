@@ -32,8 +32,8 @@ Do you notice a specific audit string for a particular pack that is wrong or cou
 ## Process for making the pack's icon SVG
 
 1. Acquire the logo in SVG
-1. Open in https://jakearchibald.github.io/svgomg/ apply default optimizations, tweak precision, and enable "Prefer viewBox to width/height". Copy out resulting markup.
-1. Inline icon markup in stackpack file as `data:image/svg+xml,` + _<optimized svg markup>_
+1. Inline icon markup in stackpack file as `data:image/svg+xml,` + _<svg markup>_
+1. Run `npm run test svg` and copy over the optimized svg.
 
 ## FAQ
 

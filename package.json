@@ -19,8 +19,10 @@
     "del-cli": "^3.0.0",
     "jsdom": "^12.2.0",
     "lighthouse": "GoogleChrome/lighthouse#master",
+    "svgo": "^3.0.2",
     "typescript": "^3.8.2",
-    "uvu": "^0.5.1"
+    "uvu": "^0.5.1",
+    "expect": "^29.3.1"
   },
   "scripts": {
     "prepublishOnly": "del-cli \"*.d.ts\" \"packs/*.d.ts\" && npm run generate-types",
