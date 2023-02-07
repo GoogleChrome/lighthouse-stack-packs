@@ -10,7 +10,7 @@ const UIStrings = {
   /** Additional description of a Lighthouse audit that tells the user to use the nuxt/image component to serve appropriately sized images to different devices. */
   'uses-responsive-images': 'Use the `nuxt/image` component and set the appropriate `sizes`. [Learn more](https://image.nuxtjs.org/components/nuxt-img#sizes).',
   /** Additional description of a Lighthouse audit that tells the user to use the nuxt/image component to prioritize the loading of the image that is part of the Largest Contentful Paint (LCP). */
-  'preload-lcp-image': 'Use the `nuxt/image` component and specify `preload` for LCP image. [Learn more](https://image.nuxtjs.org/components/nuxt-img#preload).',
+  'prioritize-lcp-image': 'Use the `nuxt/image` component and specify `preload` for LCP image. [Learn more](https://image.nuxtjs.org/components/nuxt-img#preload).',
   /** Additional description of a Lighthouse audit that tells the user to use the nuxt/image component to provide explicit `width` and `height` for images to prevent layout shift. */
   'unsized-images': 'Use the `nuxt/image` component and specify explicit `width` and `height`. [Learn more](https://image.nuxtjs.org/components/nuxt-img#width--height).',
 }
