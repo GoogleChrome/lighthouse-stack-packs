@@ -2,7 +2,7 @@ const icon = `data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox
 
 const UIStrings = {
   /** Additional description of a Lighthouse audit that tells the user how they can remove unused CSS rules by configuring the Gatsby plugin `gatsby-plugin-purgecss` which sets up PurgeCSS */
-  'unused-css-rules': 'Consider setting up `PurgeCSS` in `Gatsby` configuration to remove unused rules from stylesheets. [Learn more](https://purgecss.com/plugins/gatsby.html).',
+  'unused-css-rules': 'Use the `PurgeCSS` `Gatsby` plugin to remove unused rules from stylesheets. [Learn more](https://purgecss.com/plugins/gatsby.html).',
   /** Additional description of a Lighthouse audit that tells the user to use the gatsby-plugin-image component to automatically optimize image format */
   'modern-image-formats': 'Use the `gatsby-plugin-image` component instead of `<img>` to automatically optimize image format. [Learn more](https://www.gatsbyjs.com/docs/how-to/images-and-media/using-gatsby-plugin-image).',
   /** Additional description of a Lighthouse audit that tells the user to defer loading images which are not shown on screen using the gatsby-plugin-image component */
