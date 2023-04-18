@@ -17,7 +17,7 @@ const UIStrings = {
   'uses-optimized-images': 'Use the `gatsby-plugin-image` component instead of `<img>` to adjust image quality. [Learn more](https://www.gatsbyjs.com/docs/how-to/images-and-media/using-gatsby-plugin-image).',
   /** Additional description of a Lighthouse audit that tells the user to serve responsive images using the gatsby-plugin-image component with appropriate `sizes` set */
   'uses-responsive-images': 'Use the `gatsby-plugin-image` component to set appropriate `sizes`. [Learn more](https://www.gatsbyjs.com/docs/how-to/images-and-media/using-gatsby-plugin-image).',
-  /** Additional description of a Lighthouse audit that tells the user to use the gatsby-plugin-image component to automatically preload LCP images */
+  /** Additional description of a Lighthouse audit that tells the user to use the gatsby-plugin-image component to automatically preload LCP images. "prop" is short for "property" */
   'prioritize-lcp-image': 'Use the `gatsby-plugin-image` component and set the `loading` prop to `eager`. [Learn more](https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-plugin-image#shared-props).',
 }
 
