@@ -3,6 +3,7 @@ const stackPacks = [
   require('./packs/angular.js'),
   require('./packs/drupal.js'),
   require('./packs/ezoic.js'),
+  require('./packs/gatsby.js'),
   require('./packs/joomla.js'),
   require('./packs/magento.js'),
   require('./packs/next.js'),
