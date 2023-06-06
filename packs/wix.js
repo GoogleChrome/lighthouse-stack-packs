@@ -10,7 +10,7 @@ const UIStrings = {
   /** Additional description of a Lighthouse audit that tells the user to be aware of JavaScript code that is not used, particularly from third-parties, in the context of the Wix CMS platform. */
   "unused-javascript": "Third-party code is one of the main reasons for unused JavaScript. Review any third-party code you've added to your site in the Custom Code tab of your site's dashboard and only keep the services that are necessary to your site. [Find out more](https://support.wix.com/en/article/site-performance-removing-unused-javascript).",
   /** Additional description of a Lighthouse audit that tells the user how they can improve the time to first byte speed metric, in the context of the Wix CMS platform. */
-  "server-response-time': 'Wix utilizes CDNs and caching to serve responses as fast as possible for most visitors. Consider [manually enabling caching](https://support.wix.com/en/article/site-performance-caching-pages-to-optimize-loading-speed) for your site, especially if using Velo.',
+  "server-response-time": "Wix utilizes CDNs and caching to serve responses as fast as possible for most visitors. Consider [manually enabling caching](https://support.wix.com/en/article/site-performance-caching-pages-to-optimize-loading-speed) for your site, especially if using Velo.",
 }
 
 module.exports = {
