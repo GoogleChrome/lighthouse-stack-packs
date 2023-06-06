@@ -17,7 +17,7 @@ function optimize(svgDataUrl) {
     .replace(/%3C/g, '<')
     .replace(/%3E/g, '>')
     .replace(/#/g, '%23');
-  return svgo.optimize(svg, {
+  const optimized = svgo.optimize(svg, {
     multipass: true,
     datauri: 'unenc',
     floatPrecision: 3,
@@ -29,6 +29,8 @@ function optimize(svgDataUrl) {
             // viewBox is required to resize SVGs with CSS.
             // @see https://github.com/svg/svgo/issues/1128
             removeViewBox: false,
+            // Buggy.
+            cleanupIds: false,
           },
         },
       },
@@ -36,6 +38,11 @@ function optimize(svgDataUrl) {
       {name: 'sortAttrs'},
     ],
   }).data;
+
+  if (svgDataUrl.length - optimized.length < 50)
+    return svgDataUrl;
+
+  return optimized;
 }
 
 for (const pack of packs) {
