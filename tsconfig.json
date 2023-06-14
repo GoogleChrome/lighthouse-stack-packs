@@ -11,5 +11,5 @@
     "resolveJsonModule": true,
     "diagnostics": true
   },
-  "exclude": ["./general.js", "./packs/**/*.d.ts"]
+  "exclude": ["./general.js", "./packs/**/*.d.ts", "./test"]
 }
