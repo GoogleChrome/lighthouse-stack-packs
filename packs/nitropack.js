@@ -26,7 +26,7 @@ const UIStrings = {
   /** Additional description of a Lighthouse audit for a third-party framework called `NitroPack`. This is displayed after a user expands the section to see more. No character length limits. `Instant Load` is the name of a feature and becomes link text to additional documentation.*/
   'server-response-time': 'Improve server response time and optimize perceived performance by activating [`Instant Load`](https://support.nitropack.io/hc/en-us/articles/16547340617361).',
   /** Additional description of a Lighthouse audit for a third-party framework called `NitroPack`. This is displayed after a user expands the section to see more. No character length limits. `HTML Lazy Load` is the name of a feature.*/
-  'dom-size': 'Contact your account manager to enable `HTML Lazy Load`. Configuring it will prioritize and optimize your page rendering performance.',
+  'dom-size': 'Contact your account manager to enable [`HTML Lazy Load`](https://support.nitropack.io/hc/en-us/articles/17144942904337). Configuring it will prioritize and optimize your page rendering performance.',
   /** Additional description of a Lighthouse audit for a third-party framework called `NitroPack`. This is displayed after a user expands the section to see more. No character length limits. `Override Font Rendering Behavior` is the name of a feature and becomes link text to additional documentation.*/
   'font-display': 'Use the [`Override Font Rendering Behavior`](https://support.nitropack.io/hc/en-us/articles/16547358865041) option in NitroPack to set a desired value for the CSS font-display rule.',
 }
