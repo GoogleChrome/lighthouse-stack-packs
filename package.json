@@ -18,7 +18,7 @@
   "devDependencies": {
     "del-cli": "^3.0.0",
     "expect": "^29.3.1",
-    "jsdom": "^12.2.0",
+    "jsdom": "^22.1.0",
     "lighthouse": "GoogleChrome/lighthouse#master",
     "svgo": "^3.0.2",
     "typescript": "^5.1.3",
