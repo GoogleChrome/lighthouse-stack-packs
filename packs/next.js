@@ -4,23 +4,23 @@ const UIStrings = {
   /** Additional description of a Lighthouse audit that tells the user how they can remove unusused CSS rules by configuring a plugin named PurgeCSS. */
   'unused-css-rules': 'Consider setting up `PurgeCSS` in `Next.js` configuration to remove unused rules from stylesheets. [Learn more](https://purgecss.com/guides/next.html).',
   /** Additional description of a Lighthouse audit that tells the user to use the next/image component to automatically optimize image format. */
-  'modern-image-formats': 'Use the `next/image` component instead of `<img>` to automatically optimize image format. [Learn more](https://nextjs.org/docs/basic-features/image-optimization).',
+  'modern-image-formats': 'Use the `next/image` component instead of `<img>` to automatically optimize image format. [Learn more](https://nextjs.org/docs/app/getting-started/images).',
   /** Additional description of a Lighthouse audit that tells the user to defer loading images which are not shown on screen using the next/image component. */
-  'offscreen-images': 'Use the `next/image` component instead of `<img>` to automatically lazy-load images. [Learn more](https://nextjs.org/docs/basic-features/image-optimization).',
+  'offscreen-images': 'Use the `next/image` component instead of `<img>` to automatically lazy-load images. [Learn more](https://nextjs.org/docs/app/getting-started/images).',
   /** Additional description of a Lighthouse audit that tells the user to use next/script to defer loading of non-critical third-party libraries. */
-  'render-blocking-resources': 'Use the `next/script` component to defer loading of non-critical third-party scripts. [Learn more](https://nextjs.org/docs/basic-features/script).',
+  'render-blocking-resources': 'Use the `next/script` component to defer loading of non-critical third-party scripts. [Learn more](https://nextjs.org/docs/app/guides/scripts).',
   /** Additional description of a Lighthouse audit that tells the user to use Webpack Bundle Analyzer to discover JavaScript code that is not used. */
   'unused-javascript': 'Use `Webpack Bundle Analyzer` to detect unused JavaScript code. [Learn more](https://github.com/vercel/next.js/tree/canary/packages/next-bundle-analyzer)',
   /** Additional description of a Lighthouse audit that tells the user to enable caching for assets (e.g. images) and server-side rendered (SSR) pages that don't change between deployments. */
-  'uses-long-cache-ttl': 'Configure caching for immutable assets and `Server-side Rendered` (SSR) pages. [Learn more](https://nextjs.org/docs/going-to-production#caching).',
+  'uses-long-cache-ttl': 'Configure caching for immutable assets and `Server-side Rendered` (SSR) pages. [Learn more](https://nextjs.org/docs/13/pages/building-your-application/deploying/production-checklist#caching).',
   /** Additional description of a Lighthouse audit that tells the user to use the next/image component to adjust image quality. */
-  'uses-optimized-images': 'Use the `next/image` component instead of `<img>` to adjust image quality. [Learn more](https://nextjs.org/docs/basic-features/image-optimization).',
+  'uses-optimized-images': 'Use the `next/image` component instead of `<img>` to adjust image quality. [Learn more](https://nextjs.org/docs/app/getting-started/images).',
   /** Additional description of a Lighthouse audit that tells the user to enable compression (gzip, brotli) on their servers. */
   'uses-text-compression': 'Enable compression on your Next.js server. [Learn more](https://nextjs.org/docs/api-reference/next.config.js/compression).',
   /** Additional description of a Lighthouse audit that tells the user to serve responsive images using the next/image component with appropriate `sizes` set. */
   'uses-responsive-images': 'Use the `next/image` component to set the appropriate `sizes`. [Learn more](https://nextjs.org/docs/api-reference/next/image#sizes).',
   /** Additional description of a Lighthouse audit that tells the user to analyze the performance of their applications using Next.js Analytics. */
-  'user-timings': 'Consider using `Next.js Analytics` to measure your app\'s real-world performance. [Learn more](https://nextjs.org/docs/advanced-features/measuring-performance).',
+  'user-timings': 'Consider using `Next.js Analytics` to measure your app\'s real-world performance. [Learn more](https://nextjs.org/docs/pages/guides/analytics).',
   /** Additional description of a Lighthouse audit that tells the user to use the next/image component to automatically preload LCP images. */
   'prioritize-lcp-image': 'Use the `next/image` component and set "priority" to true to preload LCP image. [Learn more](https://nextjs.org/docs/api-reference/next/image#priority).',
   /** Additional description of a Lighthouse audit that tells the user to use the next/image component to make sure `width` and `height` of image elements are always specified. */
